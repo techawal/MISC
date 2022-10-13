@@ -24,3 +24,4 @@ else:
   i=i*4+float(u.libi.getsecond(re.sub(r'^><','',sys.argv[2]))) if len(sys.argv)==3 and re.search(r'^><',sys.argv[2]) else i
   u.screenshot(sys.argv[1],i if len(sys.argv)==2 or (len(sys.argv)==3 and re.search(r'^><',sys.argv[2])) else i)
  print(rf'************************\n***** {u.libi.adddestdir("screenshot*.png")=} *****\n**************************')
+

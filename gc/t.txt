@@ -1,0 +1,583 @@
+><Util.getarg arg='^<.*?>$'
+<=>Util.getarg index=None
+><Util.getarg arg='--resize'
+<=>Util.getarg index=16
+TEST specialtopics=False sys.argv=['../extra/subtopicgraph.py_mod', 'Shaders\\nLighting', 'Introduction\\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] resizewidth='600'
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(0,) outimagename='Shaders_Lighting_0.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=813
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744490> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_0.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(1,) outimagename='Shaders_Lighting_1.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=561
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb744730> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_1.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(2,) outimagename='Shaders_Lighting_2.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=1133
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c16c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_2.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(3,) outimagename='Shaders_Lighting_3.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=572
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c18d0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_3.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(4,) outimagename='Shaders_Lighting_4.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=569
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7444c0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_4.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(5,) outimagename='Shaders_Lighting_5.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=479
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1750> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_5.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(6,) outimagename='Shaders_Lighting_6.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=460
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c19f0> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Spot Light',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+resizing... img.size=(21600, 7200) '600x...'
+saving...outimagename='Shaders_Lighting_6.png' img.size=(600, 200)
+><getimage topic='Shaders\nLighting' subtopiclab=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics', '><', 'LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] keysubtopicindex=(7,) outimagename='Shaders_Lighting_7.png'
+<=>getimage subtopic=['Introduction\nDingDong', 'LightSource Type', 'Property', 'Emit Reflactance', 'Light Component', 'Light Transformation', 'Lighting Mathematics'] lab=['LightSource Type', 'Projection Type', 'LightMode Emission Ambient', 'Diffuse', 'Specular', 'Spot Light'] img.size=(21600, 7200) dimension=(21600, 7200) xoffset=200 rectsizehalf=(2400, 480) unitsizehalf=400
+><libc.getfont stringlist_p=('Shaders\nLighting',) screenratio_p=0.8 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=137 setvideo='4800x960' (self.videowidth,self.videoheight)=(0, 0)
+><libc.setvideo inputfile='4800x960'
+<>libc.setvideo self.videowidth=4800 self.videoheight=960
+<>libc.getfont maxindex=None i=370
+><drawarc xy=(13200, 3360) xb=16800 yb=3200 text='Emit Reflactance' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Emit Reflactance',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 960)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=286
+><drawarc xy=(8400, 3360) xb=4800 yb=3200 text='LightMode Emission Ambient' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightMode Emission Ambient',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=167
+><drawarc xy=(13200, 3840) xb=16800 yb=4000 text='Light Component' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Component',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=285
+><drawarc xy=(8400, 3840) xb=4800 yb=4000 text='Diffuse' color=(255, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Diffuse',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=429
+><drawarc xy=(12600, 3120) xb=16800 yb=2000 text='Introduction\nDingDong' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Introduction\nDingDong',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=156
+><drawarc xy=(12800, 3120) xb=16800 yb=2400 text='LightSource Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=281
+><drawarc xy=(13000, 3120) xb=16800 yb=2800 text='Property' color=(0, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Property',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=341
+><drawarc xy=(12900, 4080) xb=16800 yb=4400 text='Light Transformation' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Light Transformation',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=240
+><drawarc xy=(12700, 4080) xb=16800 yb=4800 text='Lighting Mathematics' color=(85, 170, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Lighting Mathematics',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=230
+><drawarc xy=(8800, 3120) xb=4800 yb=2400 text='LightSource Type' color=(85, 170, 0, 255) keysubtopic=True draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('LightSource Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='4800x1600' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='4800x1600'
+<>libc.setvideo self.videowidth=4800 self.videoheight=1600
+<>libc.getfont maxindex=None i=561
+><drawarc xy=(8600, 3120) xb=4800 yb=2800 text='Projection Type' color=(170, 85, 255, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Projection Type',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(4800, 1600)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=317
+><drawarc xy=(8700, 4080) xb=4800 yb=4400 text='Specular' color=(255, 0, 0, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)
+><libc.getfont stringlist_p=('Specular',) screenratio_p=0.9 fontfamily_p='/home/minhinc/.fonts/NimbusSanL-Reg.otf' widthheight=57 setvideo='2400x360' (self.videowidth,self.videoheight)=(2400, 360)
+><libc.setvideo inputfile='2400x360'
+<>libc.setvideo self.videowidth=2400 self.videoheight=360
+<>libc.getfont maxindex=None i=339
+><drawarc xy=(8900, 4080) xb=4800 yb=4800 text='Spot Light' color=(125, 205, 255) keysubtopic=False draw=<PIL.ImageDraw.ImageDraw object at 0x7f32fb7c1990> xoffset=200 dimension=(21600, 7200)

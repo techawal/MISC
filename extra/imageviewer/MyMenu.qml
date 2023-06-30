@@ -2,6 +2,7 @@ import QtQuick
 import QtQuick.Controls
 import Qt.labs.platform as Qtlabs
 CustomMenu {
+id:custommenuid
  CustomMenuItem {
  text:qsTr("New...")
   onTriggered: {
@@ -19,10 +20,11 @@ CustomMenu {
     filedialogid.mode="new"
     filedialogid.acceptLabel="Open"
     filedialogid.open()
+    dismiss()
     }
    }
    CustomMenuItem {
-   text:qsTr("Replace..")
+   text:qsTr("Replace All..")
     onTriggered: {
     filedialogid.mode="replace"
     filedialogid.fileMode=Qtlabs.FileDialog.OpenFiles
@@ -62,6 +64,16 @@ CustomMenu {
       filedialogid.open()
       }
      }
+    }
+   }
+   CustomMenuItem {
+   text:qsTr("Replace Item(Pre)..")
+    onTriggered: {
+     filedialogid.mode="replaceitem"
+     filedialogid.fileMode=Qtlabs.FileDialog.OpenFiles
+     filedialogid.folder=(filedialogid.lastfolder=undefined?filedialogid.folder:filedialogid.lastfolder)
+     filedialogid.open()
+     dismiss()
     }
    }
   }

@@ -430,7 +430,8 @@ command executed shell('/bin/bash') output if popen=True else None'''
    if len(str(c))>1:
     offsetx,offsety=wh(str(c)[1:],W/3,H/3)
    return (int(Decimal(int(str(c)[0])-1)%3)-1)*W/3+offsetx,(int(int(int(str(c)[0])-1)/3)-1)*H/3+offsety
-  a,b=wh(c)
+#  a,b=wh(c)
+  a,b=[round(x,3) for x in wh(c)]
 #  return r'(W-w)/2'+('+' if a>=0 else '')+str(a)+r'*W,(H-h)/2'+('+' if b>=0 else '')+str(b)+r'*H'
   '''
   if dimension:

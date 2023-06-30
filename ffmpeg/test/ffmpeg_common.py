@@ -30,6 +30,11 @@ overlapping - (audio,volume,timestamp) or (image,position,tuple(timestamps)) or 
   self.profile=Util.getarg('--profile',count=2)
   self.notail=Util.getarg('--notail')
   self.title=Util.getarg('--title',2) or ''
+  self.nospellcheck=Util.getarg('--nospellcheck')
+  for x in [x for x in re.split(r'\s+',self.title) if x and not self.nospellcheck]:
+   if os.system('egrep -i -e "^'+x+'$" /usr/share/dict/british-english'):
+    print(f'SPELLING MISTAKE IN TITLE {x=} use --nospellcheck')
+    self.usage()
   duration=tduration=t2duration=0
   tdurationlist=[]
   if not self.notail:

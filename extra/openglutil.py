@@ -153,24 +153,29 @@ class Utilc:
   return tmp
 
  def keyboard(self,key,transformation):
-  key=bytes(key).decode() if not type(key)==tuple and not type(key)==list else key
+  key=type(key)==bytes and key.decode() or type(key)==tuple and list(key) or key
+#  key=[float(x) for x in re.findall('-?\d+(?:[.]\d+)?',key)] if key[0]=='[' or key[0]=='(' else key
+  key=[float(re.sub(r'[\[\]]','',x)) if re.search('-?\d+(?:[.]\d+)?',x) else re.sub(r'[\[\]]','',x) for x in re.split(',',key)] if key[0]=='[' or key[0]=='(' else key
   print(f'><Utilc.keyboard key={key} transformation={transformation} {self.mode=}')
-  if type(key)==str and re.search(r'^[lrudnf]$',key):
-   if self.mode=='grand':
-    transformation[0:0]=[[float(key=='l' and -0.1 or key=='r' and 0.1),float(key=='d' and -0.1 or key=='u' and 0.1), float(key=='n' and 0.1 or key=='f' and -0.1)]]
+  if type(key)==str and re.search(r'^[rRuUnN]$',key) or len(key)==3:
+   if not type(key)==str:
+    transformation[0:0]=[key]
+   elif self.mode=='grand':
+    transformation[0:0]=[[float(key=='R' and -0.1 or key=='r' and 0.1),float(key=='U' and -0.1 or key=='u' and 0.1), float(key=='n' and 0.1 or key=='N' and -0.1)]]
    else:
 #    transformation.append([0,0,0,0]) if not len(transformation) else None
     transformation.append([0,0,0,0]) if not len([x for x in transformation if len(x)==4 and not x[0]=='s']) else None
-    if re.search(r'^[lr]$',key):
-     transformation[0:0]=(self.settlematrix(transformation)[:,0]*(-0.1 if key=='l' else 0.1)).reshape(1,3).tolist()
-    elif re.search(r'^[ud]$',key):
-     transformation[0:0]=(self.settlematrix(transformation)[:,1]*(-0.1 if key=='d' else 0.1)).reshape(1,3).tolist()
+    if re.search(r'^[Rr]$',key):
+     transformation[0:0]=(self.settlematrix(transformation)[:,0]*(-0.1 if key=='R' else 0.1)).reshape(1,3).tolist()
+    elif re.search(r'^[uU]$',key):
+     transformation[0:0]=(self.settlematrix(transformation)[:,1]*(-0.1 if key=='U' else 0.1)).reshape(1,3).tolist()
     else:
-     transformation[0:0]=(self.settlematrix(transformation)[:,2]*(-0.1 if key=='f' else 0.1)).reshape(1,3).tolist()
+     transformation[0:0]=(self.settlematrix(transformation)[:,2]*(-0.1 if key=='N' else 0.1)).reshape(1,3).tolist()
   elif type(key)==str and re.search(r'^[xyzXYZ]$',key) or len(key)==4 and not key[0]=='s':
    transformation[slice(*((1,1) if len(transformation)>0 and len(transformation[0])==3 else (0,0))) if self.mode=='grand' else slice(len(transformation),None)]=[[10*(-1 if key.isupper() else 1),1 if re.search(r'^[xX]$',key) else 0,1 if re.search(r'^[yY]$',key) else 0,1 if re.search(r'^[zZ]$',key) else 0] if type(key)==str else list(key)]
-  elif re.search(r'^[Ss]$',key):
-   transformation.insert(([count for count in range(len(transformation)) if transformation[count][0]=='s'] or [0])[0],['s',0.8,0.8,0.8] if key=='s' else ['s',1.2,1.2,1.2])
+  elif type(key)==str and re.search(r'^[Ss]$',key) or len(key)==4 and key[0]=='s':
+#   transformation.insert(([count for count in range(len(transformation)) if transformation[count][0]=='s'] or [0])[0],['s',0.8,0.8,0.8] if key=='s' else ['s',1.2,1.2,1.2])
+   transformation.insert(([count for count in range(len(transformation)) if transformation[count][0]=='s'] or [0])[0],['s',0.8,0.8,0.8] if key=='s' else ['s',1.2,1.2,1.2] if key=='S' else key)
   elif re.search(r'^[gG]$',key):
    self.mode='local'
    if re.search(r'^g$',key):
@@ -187,6 +192,10 @@ class Utilc:
    elif j<len(transformation) and len(transformation[i])==4 and not transformation[i][0]=='s':
     while j<len(transformation) and len(transformation[j])==4 and not transformation[j][0]=='s' and [k for k in range(1,4) if transformation[i][k]!=0 and transformation[i][k]==transformation[j][k]]:
      transformation[i][0]+=transformation[j][0]
+
+     if transformation[i][0]<=-360 or transformation[i][0]>=360:
+      transformation[i][0]%=360
+
      transformation[j:j+1]=[]
      j=i+1
    elif transformation[i][0]=='s':
@@ -246,7 +255,7 @@ class Utilc:
 #   print(f'TEST Utilc.getuniloc {shaderprogram=}')
   if not uniformname in self.opengl[shaderprogram]:
    self.opengl[shaderprogram][uniformname]=glGetUniformLocation(shaderprogram,uniformname)
-   print(f'TEST Utilc.getuniformloc {shaderprogram=} {uniformname=} {self.opengl=}')
+#   print(f'TEST Utilc.getuniformloc {shaderprogram=} {uniformname=} {self.opengl=}')
   return self.opengl[shaderprogram][uniformname]
 
  def getattribloc(self,shaderprogram,attributename):
@@ -289,11 +298,12 @@ class Utilc:
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_WRAP_T,GL_REPEAT)
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_NEAREST)
    glTexParameteri(GL_TEXTURE_2D,GL_TEXTURE_MAG_FILTER,GL_NEAREST)
+#   glGenerateMipmap(GL_TEXTURE_2D)
   return textureid[0] if len(textureid)==1 else textureid
 
  def pushuniattribtoshader(self,*uniattrib):
   '''pushuniattribtoshader(('material.position',0,0,5),('light.shininess',40),..)'''
-  print(f'TEST Utilc.pushuniattribtoshader {uniattrib=}')
+#  print(f'TEST Utilc.pushuniattribtoshader {uniattrib=}')
   if uniattrib and type(uniattrib[0])!=tuple and type(uniattrib[0])!=list and type(uniattrib[0])!=np.ndarray:
    uniattrib=(uniattrib,)
   elif uniattrib and (type(uniattrib[0][0])==tuple or type(uniattrib[0][0])==list or type(uniattrib[0])==np.ndarray):

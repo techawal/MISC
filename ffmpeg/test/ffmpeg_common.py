@@ -6,7 +6,7 @@ from MISC.utillib.util import Util
 class ffmpeg_common:
  def usage(self):
   print(f'''{"usage":-^40}
-python3 ffmpeg_common.py --profile [minhinc|techawal|..] [--notail] [--title <title>] video1.mp4 '(video2.mp4,00:00:02-00:10:20)' '(=video3.mp4,(00:30:00-00:50:00,01:00:00-01:22:00,01:30:00-01:32:00))' '(audio.mp3,0.5,(01:30:00-01:30:00,01:30:50-01:31:00))' 'Hello World,(5,BUP,00t),00:45:00)' '(abc.gif,(55,OUP),00:44:00)' 'video4_1600x900.mp4,00:20:30-00:30:00' 'example.mp4_00:02:10-00:11:40.mp4,(45,oup,60s),00:23:00-00:32:30)' 'toprightlogo.png,362,00:00:02'
+python3 ffmpeg_common.py --profile [minhinc|techawal|..] [--notail] [--title <title>] video1.mp4 '(video2.mp4,00:00:02-00:10:20)' '(=video3.mp4,(00:30:00-00:50:00,01:00:00-01:22:00,01:30:00-01:32:00))' '(audio.mp3,0.5,(01:30:00-01:30:00,01:30:50-01:31:00))' 'Hello World,(5,BUP,00t),00:45:00)' '(abc.gif,(55,OUP),00:44:00)' 'video4_1600x900.mp4,00:20:30-00:30:00' 'example_00:02:10-00:11:40.mp4,(45,oup,60s),00:23:00-00:32:30)' 'toprightlogo.png,362,00:00:02'
 basevideo - singlefile or tuple(filename,duration) or tuple(filename,tuple(durations))
  filename - '=<filename>.mp4' referece file or '<filname>_1600x900.mp4' for non reference file particular dimension
 overlapping - (audio,volume,timestamp) or (image,position,tuple(timestamps)) or (image,(position,type1,type2),timestamp)
